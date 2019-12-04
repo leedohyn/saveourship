@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="title" content="morse">
+    <meta name="description" content="morse">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>morse</title>
+
+    <link rel="stylesheet" href="asset/css/layout.css">
+
+    <script src="asset/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap morse">
+        <a href="kukhwa11.html" class="goBtn1"></a>
+        <a href="mansu11.html" class="goBtn2"></a>
+        <img class="smile on" src="asset/img/img_morseOff.png" alt="smile Off">
+        <img class="smile1" src="asset/img/img_morseOn.png" alt="smile On">
+        <div class="input_box">
+            <div class="seeApple">
+                <span>wanna see my apple?</span>
+                <a class="btn yes">YES</a>
+                <a href="spanish.html" class="btn no">no...</a>
+            </div>
+            <div class="input_area">
+                <label for="yourName">your name</label>
+                <input type="text" name="input" id="yourName">
+                <label for="yourEmail">your email</label>
+                <textarea name="input" id="yourEmail"></textarea>
+                <button type="button" class="sendBtn">SEND</button>
+            </div>
+        </div>
+        <img class="bg_morse" src="asset/img/bg_morse.jpg" alt="morse">
+    </div>
+
+    <script>
+        // alert
+        $(document).ready(function(){
+            $('.sendBtn').click(function() {
+                alert("고마워!")
+            });
+        });
+
+        // smile toggle
+        $(document).ready(function(){
+            $('.yes').click(function() {
+                $('.smile').removeClass('on');
+                $('.smile1').addClass('on');
+            });
+        } );
+
+    </script>
+</body>
+</html>

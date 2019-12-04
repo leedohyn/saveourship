@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="title" content="spanish">
+    <meta name="description" content="spanish">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>spanish</title>
+
+    <link rel="stylesheet" href="asset/css/layout.css">
+
+    <script src="asset/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap spanish">
+        <img class="smile on" src="asset/img/img_spanish.png" alt="image spanish">
+        <div class="input_box">
+            <div class="seeApple">
+                <span>I'll listen to you whatever you say</span>
+            </div>
+            <div class="input_area">
+                <label for="yourName">your name</label>
+                <input type="text" name="input" id="yourName">
+                <label for="yourEmail">tell me your story</label>
+                <textarea name="input" id="yourEmail"></textarea>
+                <button type="button" class="sendBtn">SEND</button>
+            </div>
+        </div>
+        <img class="bg_morse" src="asset/img/bg_spanish.jpg" alt="spanish">
+    </div>
+
+    <script>
+        // alert
+        $(document).ready(function(){
+            $('.sendBtn').click(function() {
+                alert("바보!")
+            });
+        });
+
+
+    </script>
+</body>
+</html>

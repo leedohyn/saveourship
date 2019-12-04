@@ -1,0 +1,213 @@
+/* common */
+body, div {margin:0;padding:0;}
+body,th,td,input,select,textarea,button {font-size:40px;line-height:1.5;letter-spacing:-0.025em;font-family:'Microsoft Sans Serif', sans-serif;color:#363636;}
+div, input, ul, li {box-sizing:border-box;}
+img {width:auto;max-width:100%;}
+
+/* common layout */
+body {
+    position:relative;
+    width:100%;
+}
+.wrap {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+/* kukhwa11 */
+.wrap.kukhwa11 a.goBtn {
+    position:absolute;
+    display:block;
+    top:50%;
+    left:calc(100vw / 2.358722358722359);
+    width:calc(100vw / 20);
+    height:calc(100vw / 20);
+    background:#0696f9;
+}
+
+/* mansu11 */
+.wrap.mansu11,
+.wrap.mansu22 {
+    min-width:708px;
+}
+.wrap.mansu11 h1,
+.wrap.mansu11 a {
+    display:block;
+    margin:0 auto;
+    width:708px;
+}
+.wrap.mansu11 h1 {
+    margin:140px auto 60px;
+}
+.wrap.mansu11 img,
+.wrap.mansu22 img {
+    display:block;
+    margin:0 auto;
+}
+
+/* morse */
+.wrap.morse {
+    min-width:1840px;
+    line-height:0;
+}
+.wrap.morse img.bg_morse {
+    width:100%;
+}
+.wrap.morse > a {
+    position:absolute;
+    display:block;
+    width:20px;
+    height:24px;
+}
+.wrap.morse > a.goBtn1 {
+    top:35px;
+    left:1425px;
+}
+.wrap.morse > a.goBtn2 {
+    top:119px;
+    left:1184px;
+}
+.wrap.morse img.smile,
+.wrap.morse img.smile1 {
+    position:absolute;
+    display:none;
+    top:5px;
+    left:670px;
+}
+.wrap.morse img.smile.on,
+.wrap.morse img.smile1.on {
+    display:block;
+}
+
+.wrap.morse .input_box * {
+    font-size:23px;
+}
+
+.wrap.morse .input_box {
+    position:absolute;
+    right:0;
+    bottom:0;
+    padding:25px 20px 5px 50px;
+    width:517px;
+    height:345px;
+    line-height:1.5;
+    background-color:#fff;
+}
+
+.wrap.morse .input_box .seeApple {
+    margin-bottom:5px;
+}
+
+.wrap.morse .input_box span {
+    display:inline-block;
+    padding-left:12px;
+    transform:scaleX(1.14);
+    font-weight:600;
+}
+.wrap.morse .input_box .btn {
+    display:inline-block;
+    margin-left:40px;
+    text-decoration:none;
+    transform:scaleX(1.14);
+    color:#000;
+    cursor:pointer;
+}
+
+.wrap.morse .input_box input,
+.wrap.morse .input_box textarea {
+    display:block;
+    width:100%;
+    line-height:1.8em;
+    box-sizing:border-box;
+}
+.wrap.morse .input_box label {
+    display:inline-block;
+    padding-left:6px;
+    width:auto;
+    transform:scaleX(1.14);
+}
+.wrap.morse .input_box input,
+.wrap.morse .input_box textarea {
+    margin-top:10px;
+}
+.wrap.morse .input_box button {
+    position:absolute;
+    display:block;
+    right:15px;
+    bottom:10px;
+    font-size:20px;
+    line-height:1em;
+    background:none;
+    border:1px solid #000;
+    border-radius:5px;
+    transform:scaleX(.72);
+}
+
+/* spanish */
+.wrap.spanish {
+    min-width:1840px;
+    line-height:0;
+}
+.wrap.spanish img.smile {
+    position:absolute;
+    top:46px;
+    left:655px;
+}
+.wrap.spanish .input_box * {
+    font-size:23px;
+}
+
+.wrap.spanish .input_box {
+    position:absolute;
+    right:0;
+    bottom:0;
+    padding:25px 20px 5px 50px;
+    width:517px;
+    height:345px;
+    line-height: 1.5;
+    background-color:#fff;
+}
+.wrap.spanish .input_box .seeApple {
+    margin-bottom:5px;
+}
+.wrap.spanish .input_box span {
+    display:inline-block;
+    padding-left:18px;
+    transform:scaleX(1.14);
+    font-weight:600;
+}
+.wrap.spanish .input_box .btn {
+    margin-left:30px;
+    text-decoration:none;
+    color:#000;
+}
+.wrap.spanish .input_box input,
+.wrap.spanish .input_box textarea {
+    display:block;
+    width:100%;
+    line-height:1.8em;
+    box-sizing:border-box;
+}
+.wrap.spanish .input_box label {
+    display:inline-block;
+    padding-left:6px;
+    width:auto;
+    transform:scaleX(1.14);
+}
+.wrap.spanish .input_box input,
+.wrap.spanish .input_box textarea {
+    margin-top:10px;
+}
+.wrap.spanish .input_box button {
+    position:absolute;
+    display:block;
+    right:15px;
+    bottom:10px;
+    font-size:20px;
+    line-height:1em;
+    background:none;
+    border:1px solid #000;
+    border-radius:5px;
+    transform:scaleX(.72);
+}
